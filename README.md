@@ -6,26 +6,6 @@ GPT-Next is a chatbot that can be used to generate text. It is based on the GPT-
 
 ## Usage
 
-Clone the repository and install the requirements.
-
-```sh
-git clone https://github.com/ImRLopezAG/gpt-next.git
-```
-
-```sh
-cd gpt-next
-```
->[!IMPORTANT]
-> You need to have added the Google API credentials to your environment variables.
-
-create a file called `.env.local` and add the following variables:
-
-```sh
-API_KEY=YOUR_API_KEY
-```
->[!NOTE]
-> You can get your API key from the [Google AI Studio](https://makersuite.google.com/app/apikey.)
-
 Then run the following command to start the server:
 
 ```sh
